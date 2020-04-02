@@ -1,6 +1,6 @@
 # BEEIA Model
 
-![poster](mdfile\Poster.png)
+![poster](mdfile/Poster.png)
 
 
 _______________
@@ -47,7 +47,7 @@ To continue we are going to need a few files :
 
 Those file are available on this shared drive, I advice you make a local copy of it so you can work on your own.
 
-- Copy the google colab [file](https://colab.research.google.com/drive/1e9s61mfkgQniunoi6vBFMDGelnq9SALP/) and create your own so you can add your modifications. The file is also present [in the notebook folder](notebook\all_in_one.ipynb)
+- Copy the google colab [file](https://colab.research.google.com/drive/1e9s61mfkgQniunoi6vBFMDGelnq9SALP/) and create your own so you can add your modifications. The file is also present [in the notebook folder](notebook/all_in_one.ipynb)
 
 Please refer to the comments on the colab file to get the hang of it there.
 _________
@@ -67,18 +67,18 @@ There is the all_in_one notebook that details each step if you want everything i
 To create the records (you can skip this part as the results are in the data folder), the output should be a **pascalvoc_training.record** file : 
 
 - [Google Colab](https://colab.research.google.com/drive/1ACZeaWkk7UBG8y1MIHnkmm-1YUf68IrR)
-- [Notebook folder](notebook\dataset_creation.ipynb)
+- [Notebook folder](notebook/dataset_creation.ipynb)
 
 ### Train the model 
 To start training on the models, the output should be a folder called **inference graph** : 
 - [Google Colab](https://colab.research.google.com/drive/1A-fo0Yrn7MfdwtV3DDna31lPjv2N119R)
-- [Notebook folder](notebook\train.ipynb)
+- [Notebook folder](notebook/train.ipynb)
 
 ### Convert into Tflite
 To convert the obtained model (works only with SSD models), the output should be a **model.tflite** file :
 
 - [Google Colab](https://colab.research.google.com/drive/17j7pLSozdRq2sO708hDkKVXDKzqiOXUX)
-- [Notebook folder](notebook\convert_tflite.ipynb)
+- [Notebook folder](notebook/convert_tflite.ipynb)
 _____________
 ## Testing
 
@@ -93,7 +93,7 @@ For example, this file will allow you to predict on an image, you need to specif
 
 
 RNN model  prediction
-![rnn](mdfile\Annotation.png)
+![rnn](mdfile/Annotation.png)
 
 
 
@@ -112,7 +112,7 @@ More instructions are available there.
 
 SSD model prediction
 
-![ssd](mdfile\beeia_pic.jpg)
+![ssd](mdfile/beeia_pic.jpg)
 _____
 
 ## Future evolutions
